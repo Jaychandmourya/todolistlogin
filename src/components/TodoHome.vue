@@ -16,7 +16,9 @@
                     width="60"
                   />
                   <h2 class="my-4">Task List</h2>
-                  <button style="float: right">Add To List</button>
+                  <button style="float: right">
+                    <router-link to="/Addtask">Add To List</router-link>
+                  </button>
                 </div>
 
                 <table class="table text-white mb-0">
@@ -61,7 +63,9 @@
                         <button v-on:click="removeItem(tododata.id)">
                           Delete
                         </button>
-                        <button @click="sayHello()">Edit</button>
+                        <button>
+                          <router-link to="/editask/">Edit</router-link>
+                        </button>
                       </td>
                     </tr>
                   </tbody>
