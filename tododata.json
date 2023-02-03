@@ -1,22 +1,73 @@
 {
   "todos": [
     {
-      "id": 1,
-      "taskName": "Disgn",
-      "priority": "high",
-      "status": "undone"
+      "taskName": "testing",
+      "addpriority": "medium",
+      "status": "done",
+      "id": 7
     },
     {
-      "id": 2,
-      "taskName": "develop",
-      "priority": "high",
-      "status": "undone"
+      "taskName": "testing home page",
+      "addpriority": "medium",
+      "status": "done",
+      "id": 9
     },
     {
-      "id": 3,
-      "taskName": "rerror",
-      "priority": "high",
-      "status": "undone"
+      "taskName": "bhawik ",
+      "addpriority": "low",
+      "status": "done",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "jaychand",
+      "email": "jaychand@mourya.com",
+      "password": "12345",
+      "ustatus": true,
+      "id": 0
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "123",
+      "ustatus": true,
+      "id": 1
+    },
+    {
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "password": "1234",
+      "ustatus": true,
+      "id": 2
+    },
+    {
+      "name": "bhawik",
+      "email": "bhawik@gmail.com",
+      "password": "123",
+      "ustatus": true,
+      "id": 3
+    },
+    {
+      "name": "Ra",
+      "email": "r@gmail.com",
+      "password": "123456",
+      "ustatus": true,
+      "id": 4
+    },
+    {
+      "name": "xyz",
+      "email": "y@gmail.com",
+      "password": "123",
+      "ustatus": true,
+      "id": 5
+    },
+    {
+      "name": "fdsf",
+      "email": "dfdsfds",
+      "password": "fdsfds",
+      "ustatus": true,
+      "id": 6
     }
   ]
 }
